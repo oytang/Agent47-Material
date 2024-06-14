@@ -37,3 +37,5 @@
 - **[CDVAE for 2D](https://www.nature.com/articles/s41524-022-00923-3)** Data-driven discovery of 2D materials by deep generative models (npj comp)
 
 - **[3DSC (Additional Crystal T<sub>C</sub> dataset)](https://www.nature.com/articles/s41597-023-02721-y)** 3DSC - a dataset of superconductors including crystal structures
+
+- **[Kamal Choudhary figshare repo](https://figshare.com/authors/Kamal_Choudhary/4445539)** Many useful superconductor datasets
