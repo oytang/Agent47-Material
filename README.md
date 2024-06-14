@@ -34,3 +34,5 @@
 - **[Constrained GAN](https://www.nature.com/articles/s41524-021-00526-4)** Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures (npj comp)
 
 - **[CDVAE for 2D](https://www.nature.com/articles/s41524-022-00923-3)** Data-driven discovery of 2D materials by deep generative models (npj comp)
+
+- **[3DSC (Additional Crystal T<sub>C</sub> dataset)](https://www.nature.com/articles/s41597-023-02721-y)** 3DSC - a dataset of superconductors including crystal structures
