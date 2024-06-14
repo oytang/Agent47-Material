@@ -1,32 +1,49 @@
 # Agent47-Material
 
+## Goal
+
+As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260), we want to:
+
+- Increase success rate
+- Increase stability
+- Increase physical realisticity and symmetry
+- Multi-objective generation (e.g. functionality and stability)
+
 ## Data
 
 - JARVIS dataset is what we start with.
 ![jarvis-hist](figure/jarvis-hist.png)
 - SuperCon dataset is somehow hard to work with.
 
-## Official References (from https://ai4science.io/2024physics.html)
+## Relevant code repositories
+
+- **CDVAE** https://github.com/txie-93/cdvae
+- **ALIGNN** https://github.com/usnistgov/alignn
+- **GflowNet** as in Crystal-GFN https://github.com/alexhernandezgarcia/gflownet
+
+## [Official References](https://ai4science.io/2024physics.html)
 
 - **[JARVIS dataset](https://www.nature.com/articles/s41524-022-00933-1)** Designing high-T<sub>C</sub> superconductors with BCS-inspired screening, density functional theory, and deep-learning
 
 - **[JARVIS dataset (2D version)](https://pubs.acs.org/doi/10.1021/acs.nanolett.2c04420)** High-Throughput DFT-Based Discovery of Next Generation Two-Dimensional (2D) Superconductors
 
-- **[MatterGen](https://arxiv.org/abs/2312.03687)** MatterGen: a generative model for inorganic materials design
+- **[MatterGen](https://arxiv.org/abs/2312.03687)** **NOT open-source** MatterGen: a generative model for inorganic materials design
 
-- **[CDVAE](https://arxiv.org/abs/2110.06197)** Crystal Diffusion Variational Autoencoder for Periodic Material Generation
+- **[CDVAE](https://arxiv.org/abs/2110.06197)** **Open-source** Crystal Diffusion Variational Autoencoder for Periodic Material Generation (**Critic**: it does NOT enable imposing domain-based constraints into the generation process, and can lead to physically unrealistic and unstable structures.)
 
-- **[Example Inervse Design Workflow](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260)** Inverse Design of Next-Generation Superconductors Using Data-Driven Deep Generative Models
+- **[Example workflow [CDVAE + ALIGNN]](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260)** Inverse Design of Next-Generation Superconductors Using Data-Driven Deep Generative Models
 
-- **[Crystal-GFN](https://arxiv.org/abs/2310.04925)** Crystal-GFN: sampling crystals with desirable properties and constraints
+- **[Crystal-GFN](https://arxiv.org/abs/2310.04925)** **Open-source** Crystal-GFN: sampling crystals with desirable properties and constraints
 
-- **[ALIGNN (Materials property predictions)](https://www.nature.com/articles/s41524-021-00650-1)** Atomistic Line Graph Neural Network for improved materials property predictions
+- **[ALIGNN (Materials property predictions)](https://www.nature.com/articles/s41524-021-00650-1)** **Open-source** Atomistic Line Graph Neural Network for improved materials property predictions
 
 - **[SLICES](https://www.nature.com/articles/s41467-023-42870-7)** An invertible, invariant crystal representation for inverse design of solid-state materials using generative deep learning
 
 ### Other References
 
-- **[DiffTransformer](https://arxiv.org/abs/2406.09263)** Generative Inverse Design of Crystal Structures via Diffusion Models with Transformers (ArXiv)
+- **[DiffTransformer](https://arxiv.org/abs/2406.09263)** **NOT open-source** Generative Inverse Design of Crystal Structures via Diffusion Models with Transformers (ArXiv)
+
+- **[DP-CDVAE](https://www.nature.com/articles/s41598-024-51400-4)** Diffusion probabilistic models enhance variational autoencoder for crystal structure generative modeling
 
 - **[Symmertry Constraints](https://www.nature.com/articles/s41524-023-00987-9)** Physics guided deep learning for generative design of crystal materials with symmetry constraints (npj comp)
 
