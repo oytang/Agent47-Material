@@ -1,5 +1,10 @@
 # Agent47-Material
 
+## Tasks
+
+- [ ] Install PGCGM on cluster and get it up and running
+- [ ] Train PGCGM over JARVIS dataset
+
 ## Goal
 
 As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260), we want to:
