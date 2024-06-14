@@ -1,0 +1,60 @@
+# generated using pymatgen
+data_CdCoIr
+_symmetry_space_group_name_H-M   P4/nmm
+_cell_length_a   4.02452600
+_cell_length_b   4.02452600
+_cell_length_c   5.38585200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   129
+_chemical_formula_structural   CdCoIr
+_chemical_formula_sum   'Cd16 Co16 Ir16'
+_cell_volume   87.23361897
+_cell_formula_units_Z   16
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, y, z'
+  3  '-y+1/2, x+1/2, z'
+  4  '-y+1/2, x+1/2, z'
+  5  '-x, -y, z'
+  6  '-x, -y, z'
+  7  'y+1/2, -x+1/2, z'
+  8  'y+1/2, -x+1/2, z'
+  9  'x+1/2, -y+1/2, -z'
+  10  'x+1/2, -y+1/2, -z'
+  11  '-y, -x, -z'
+  12  '-y, -x, -z'
+  13  '-x+1/2, y+1/2, -z'
+  14  '-x+1/2, y+1/2, -z'
+  15  'y, x, -z'
+  16  'y, x, -z'
+  17  '-x+1/2, -y+1/2, -z'
+  18  '-x+1/2, -y+1/2, -z'
+  19  'y, -x, -z'
+  20  'y, -x, -z'
+  21  'x+1/2, y+1/2, -z'
+  22  'x+1/2, y+1/2, -z'
+  23  '-y, x, -z'
+  24  '-y, x, -z'
+  25  '-x, y, z'
+  26  '-x, y, z'
+  27  'y+1/2, x+1/2, z'
+  28  'y+1/2, x+1/2, z'
+  29  'x, -y, z'
+  30  'x, -y, z'
+  31  '-y+1/2, -x+1/2, z'
+  32  '-y+1/2, -x+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  16  0.16000000  0.22000000  0.14000000  1.0
+  Co  Co1  16  0.08000000  0.17000000  0.33000000  1.0
+  Ir  Ir2  16  0.04000000  0.08000000  0.02000000  1.0

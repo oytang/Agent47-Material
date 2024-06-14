@@ -1,0 +1,60 @@
+# generated using pymatgen
+data_Al(GaTc)4
+_symmetry_space_group_name_H-M   P4/mmm
+_cell_length_a   3.94308950
+_cell_length_b   3.94308950
+_cell_length_c   5.08798740
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   123
+_chemical_formula_structural   Al(GaTc)4
+_chemical_formula_sum   'Al4 Ga16 Tc16'
+_cell_volume   79.10779814
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, y, z'
+  3  '-x, -y, -z'
+  4  '-x, -y, -z'
+  5  '-y, x, z'
+  6  '-y, x, z'
+  7  'y, -x, -z'
+  8  'y, -x, -z'
+  9  '-x, -y, z'
+  10  '-x, -y, z'
+  11  'x, y, -z'
+  12  'x, y, -z'
+  13  'y, -x, z'
+  14  'y, -x, z'
+  15  '-y, x, -z'
+  16  '-y, x, -z'
+  17  'x, -y, -z'
+  18  'x, -y, -z'
+  19  '-x, y, z'
+  20  '-x, y, z'
+  21  '-y, -x, -z'
+  22  '-y, -x, -z'
+  23  'y, x, z'
+  24  'y, x, z'
+  25  '-x, y, -z'
+  26  '-x, y, -z'
+  27  'x, -y, z'
+  28  'x, -y, z'
+  29  'y, x, -z'
+  30  'y, x, -z'
+  31  '-y, -x, z'
+  32  '-y, -x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  4  0.00000000  0.16000000  0.00000000  1.0
+  Ga  Ga1  16  0.20000000  0.33000000  0.40000000  1.0
+  Tc  Tc2  16  0.11000000  0.42000000  0.02000000  1.0

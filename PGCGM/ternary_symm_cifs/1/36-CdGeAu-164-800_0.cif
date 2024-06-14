@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_CdGeAu
+_symmetry_space_group_name_H-M   P-3m1
+_cell_length_a   4.62723800
+_cell_length_b   4.62723800
+_cell_length_c   5.51531600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   164
+_chemical_formula_structural   CdGeAu
+_chemical_formula_sum   'Cd12 Ge12 Au12'
+_cell_volume   102.26916445
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, y, z'
+  3  '-x, -y, -z'
+  4  '-x, -y, -z'
+  5  '-y, x-y, z'
+  6  '-y, x-y, z'
+  7  'y, -x+y, -z'
+  8  'y, -x+y, -z'
+  9  '-x+y, -x, z'
+  10  '-x+y, -x, z'
+  11  'x-y, x, -z'
+  12  'x-y, x, -z'
+  13  'y, x, -z'
+  14  'y, x, -z'
+  15  '-y, -x, z'
+  16  '-y, -x, z'
+  17  'x-y, -y, -z'
+  18  'x-y, -y, -z'
+  19  '-x+y, y, z'
+  20  '-x+y, y, z'
+  21  '-x, -x+y, -z'
+  22  '-x, -x+y, -z'
+  23  'x, x-y, z'
+  24  'x, x-y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  12  0.09000000  0.27000000  0.83000000  1.0
+  Ge  Ge1  12  0.06000000  0.38000000  -0.00000000  1.0
+  Au  Au2  12  0.02000000  0.24000000  0.99000000  1.0

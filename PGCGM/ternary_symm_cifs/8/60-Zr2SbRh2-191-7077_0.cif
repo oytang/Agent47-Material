@@ -1,0 +1,76 @@
+# generated using pymatgen
+data_Zr2SbRh2
+_symmetry_space_group_name_H-M   P6/mmm
+_cell_length_a   4.17941400
+_cell_length_b   4.17941400
+_cell_length_c   5.10005950
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   191
+_chemical_formula_structural   Zr2SbRh2
+_chemical_formula_sum   'Zr24 Sb12 Rh24'
+_cell_volume   77.15012976
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, y, z'
+  3  '-x, -y, -z'
+  4  '-x, -y, -z'
+  5  'x-y, x, z'
+  6  'x-y, x, z'
+  7  '-x+y, -x, -z'
+  8  '-x+y, -x, -z'
+  9  '-y, x-y, z'
+  10  '-y, x-y, z'
+  11  'y, -x+y, -z'
+  12  'y, -x+y, -z'
+  13  '-x, -y, z'
+  14  '-x, -y, z'
+  15  'x, y, -z'
+  16  'x, y, -z'
+  17  '-x+y, -x, z'
+  18  '-x+y, -x, z'
+  19  'x-y, x, -z'
+  20  'x-y, x, -z'
+  21  'y, -x+y, z'
+  22  'y, -x+y, z'
+  23  '-y, x-y, -z'
+  24  '-y, x-y, -z'
+  25  '-y, -x, -z'
+  26  '-y, -x, -z'
+  27  'y, x, z'
+  28  'y, x, z'
+  29  '-x, -x+y, -z'
+  30  '-x, -x+y, -z'
+  31  'x, x-y, z'
+  32  'x, x-y, z'
+  33  '-x+y, y, -z'
+  34  '-x+y, y, -z'
+  35  'x-y, -y, z'
+  36  'x-y, -y, z'
+  37  'y, x, -z'
+  38  'y, x, -z'
+  39  '-y, -x, z'
+  40  '-y, -x, z'
+  41  'x, x-y, -z'
+  42  'x, x-y, -z'
+  43  '-x, -x+y, z'
+  44  '-x, -x+y, z'
+  45  'x-y, -y, -z'
+  46  'x-y, -y, -z'
+  47  '-x+y, y, z'
+  48  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  24  0.02000000  0.11000000  0.43000000  1.0
+  Sb  Sb1  12  0.05000000  0.19000000  0.00000000  1.0
+  Rh  Rh2  24  0.05000000  0.40000000  0.04000000  1.0

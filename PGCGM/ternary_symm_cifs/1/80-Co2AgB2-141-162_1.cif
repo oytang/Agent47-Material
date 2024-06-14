@@ -1,0 +1,92 @@
+# generated using pymatgen
+data_Co2AgB2
+_symmetry_space_group_name_H-M   I4_1/amd
+_cell_length_a   4.62182200
+_cell_length_b   4.62182200
+_cell_length_c   8.77057600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   141
+_chemical_formula_structural   Co2AgB2
+_chemical_formula_sum   'Co32 Ag16 B32'
+_cell_volume   187.35036659
+_cell_formula_units_Z   16
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, y, z'
+  3  '-y, x+1/2, z+1/4'
+  4  '-y, x+1/2, z+1/4'
+  5  '-x+1/2, -y+1/2, z+1/2'
+  6  '-x+1/2, -y+1/2, z+1/2'
+  7  'y+1/2, -x, z+3/4'
+  8  'y+1/2, -x, z+3/4'
+  9  'x, -y+1/2, -z+1/4'
+  10  'x, -y+1/2, -z+1/4'
+  11  '-y, -x, -z'
+  12  '-y, -x, -z'
+  13  '-x+1/2, y, -z+3/4'
+  14  '-x+1/2, y, -z+3/4'
+  15  'y+1/2, x+1/2, -z+1/2'
+  16  'y+1/2, x+1/2, -z+1/2'
+  17  '-x, -y+1/2, -z+1/4'
+  18  '-x, -y+1/2, -z+1/4'
+  19  'y, -x, -z'
+  20  'y, -x, -z'
+  21  'x+1/2, y, -z+3/4'
+  22  'x+1/2, y, -z+3/4'
+  23  '-y+1/2, x+1/2, -z+1/2'
+  24  '-y+1/2, x+1/2, -z+1/2'
+  25  '-x, y, z'
+  26  '-x, y, z'
+  27  'y, x+1/2, z+1/4'
+  28  'y, x+1/2, z+1/4'
+  29  'x+1/2, -y+1/2, z+1/2'
+  30  'x+1/2, -y+1/2, z+1/2'
+  31  '-y+1/2, -x, z+3/4'
+  32  '-y+1/2, -x, z+3/4'
+  33  'x+1/2, y+1/2, z+1/2'
+  34  'x+1/2, y+1/2, z+1/2'
+  35  '-y+1/2, x, z+3/4'
+  36  '-y+1/2, x, z+3/4'
+  37  '-x, -y, z'
+  38  '-x, -y, z'
+  39  'y, -x+1/2, z+1/4'
+  40  'y, -x+1/2, z+1/4'
+  41  'x+1/2, -y, -z+3/4'
+  42  'x+1/2, -y, -z+3/4'
+  43  '-y+1/2, -x+1/2, -z+1/2'
+  44  '-y+1/2, -x+1/2, -z+1/2'
+  45  '-x, y+1/2, -z+1/4'
+  46  '-x, y+1/2, -z+1/4'
+  47  'y, x, -z'
+  48  'y, x, -z'
+  49  '-x+1/2, -y, -z+3/4'
+  50  '-x+1/2, -y, -z+3/4'
+  51  'y+1/2, -x+1/2, -z+1/2'
+  52  'y+1/2, -x+1/2, -z+1/2'
+  53  'x, y+1/2, -z+1/4'
+  54  'x, y+1/2, -z+1/4'
+  55  '-y, x, -z'
+  56  '-y, x, -z'
+  57  '-x+1/2, y+1/2, z+1/2'
+  58  '-x+1/2, y+1/2, z+1/2'
+  59  'y+1/2, x, z+3/4'
+  60  'y+1/2, x, z+3/4'
+  61  'x, -y, z'
+  62  'x, -y, z'
+  63  '-y, -x+1/2, z+1/4'
+  64  '-y, -x+1/2, z+1/4'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  32  0.03000000  0.11000000  0.74000000  1.0
+  Ag  Ag1  16  0.00000000  0.06000000  0.06000000  1.0
+  B  B2  32  0.07000000  0.22000000  0.12000000  1.0
