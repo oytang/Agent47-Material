@@ -1,11 +1,11 @@
 # Agent47-Material
 
-### Data
+## Data
 
 - JARVIS dataset is what we start with.
 - SuperCon dataset is somehow hard to work with.
 
-### Official References (from https://ai4science.io/2024physics.html)
+## Official References (from https://ai4science.io/2024physics.html)
 
 - **[JARVIS dataset](https://www.nature.com/articles/s41524-022-00933-1)** Designing high-T<sub>C</sub> superconductors with BCS-inspired screening, density functional theory, and deep-learning
 
@@ -31,6 +31,6 @@
 
 - **[GT4SD](https://www.nature.com/articles/s41524-023-01028-1)** Accelerating material design with the generative toolkit for scientific discovery (npj comp)
 
-- **[Constrained GAN](https://www.nature.com/articles/s41524-021-00526-4)** Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures
+- **[Constrained GAN](https://www.nature.com/articles/s41524-021-00526-4)** Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures (npj comp)
 
 - **[CDVAE for 2D](https://www.nature.com/articles/s41524-022-00923-3)** Data-driven discovery of 2D materials by deep generative models (npj comp)
