@@ -9,6 +9,8 @@ As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c
 - Increase physical realisticity and symmetry
 - Multi-objective generation (e.g. functionality and stability)
 
+The general idea is to replicate a work close to [MatterGen](https://arxiv.org/abs/2312.03687) (which is not open-sourced) and apply to superconductor discovery.
+
 ## Data
 
 - JARVIS dataset is what we start with.
@@ -17,9 +19,11 @@ As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c
 
 ## Relevant code repositories
 
+- **PGCGM** https://github.com/MilesZhao/PGCGM
 - **CDVAE** https://github.com/txie-93/cdvae
 - **ALIGNN** https://github.com/usnistgov/alignn
 - **GflowNet** as in Crystal-GFN https://github.com/alexhernandezgarcia/gflownet
+- **GT4SD** https://www.nature.com/articles/s41524-023-01028-1
 
 ## [Official References](https://ai4science.io/2024physics.html)
 
@@ -39,19 +43,21 @@ As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c
 
 - **[SLICES](https://www.nature.com/articles/s41467-023-42870-7)** An invertible, invariant crystal representation for inverse design of solid-state materials using generative deep learning
 
-### Other References
+## Other References
 
 - **[DiffTransformer](https://arxiv.org/abs/2406.09263)** **NOT open-source** Generative Inverse Design of Crystal Structures via Diffusion Models with Transformers (ArXiv)
 
-- **[DP-CDVAE](https://www.nature.com/articles/s41598-024-51400-4)** Diffusion probabilistic models enhance variational autoencoder for crystal structure generative modeling
+- **[DP-CDVAE](https://www.nature.com/articles/s41598-024-51400-4)** Diffusion probabilistic models enhance variational autoencoder for crystal structure generative modeling (Critic: it does not solve the challenge in CDVAE, only exploiting prediction accuracy)
 
-- **[Symmertry Constraints](https://www.nature.com/articles/s41524-023-00987-9)** Physics guided deep learning for generative design of crystal materials with symmetry constraints (npj comp)
+- **[PGCGM](https://www.nature.com/articles/s41524-023-00987-9)** Physics guided deep learning for generative design of crystal materials with symmetry constraints (npj comp) Physics Guided Crystal Generative Model (PGCGM) (Critic: it potentially solves the problem to generate symmetric geometry)
 
 - **[GT4SD](https://www.nature.com/articles/s41524-023-01028-1)** Accelerating material design with the generative toolkit for scientific discovery (npj comp)
 
-- **[Constrained GAN](https://www.nature.com/articles/s41524-021-00526-4)** Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures (npj comp)
+- **[Constrained GAN](https://www.nature.com/articles/s41524-021-00526-4)** Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures (npj comp) (Critic: PGCGM is more recent)
 
 - **[CDVAE for 2D](https://www.nature.com/articles/s41524-022-00923-3)** Data-driven discovery of 2D materials by deep generative models (npj comp)
+
+## Additional Datasets
 
 - **[3DSC (Additional Crystal T<sub>C</sub> dataset)](https://www.nature.com/articles/s41597-023-02721-y)** 3DSC - a dataset of superconductors including crystal structures
 
