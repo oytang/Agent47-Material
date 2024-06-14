@@ -2,7 +2,7 @@
 
 ## Tasks
 
-- [ ] Install PGCGM on cluster and get it up and running
+- [x] Install PGCGM on cluster and get it up and running
 - [ ] Train PGCGM over JARVIS dataset
 
 ## Goal
@@ -25,7 +25,9 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
 ## Relevant code repositories
 
 - **PGCGM** https://github.com/MilesZhao/PGCGM
+    - Critic: it cannot do property-oriented inverse design. So the generated structures are more symmetric, but there is no way to insert T<sub>C</sub> information.
 - **CDVAE** https://github.com/txie-93/cdvae
+    - Critic: it does NOT enable imposing domain-based constraints into the generation process, and can lead to physically unrealistic and unstable structures.
 - **ALIGNN** https://github.com/usnistgov/alignn
 - **GflowNet** as in Crystal-GFN https://github.com/alexhernandezgarcia/gflownet
 - **GT4SD** https://www.nature.com/articles/s41524-023-01028-1
@@ -38,7 +40,7 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
 
 - **[MatterGen](https://arxiv.org/abs/2312.03687)** **NOT open-source** MatterGen: a generative model for inorganic materials design
 
-- **[CDVAE](https://arxiv.org/abs/2110.06197)** **Open-source** Crystal Diffusion Variational Autoencoder for Periodic Material Generation (**Critic**: it does NOT enable imposing domain-based constraints into the generation process, and can lead to physically unrealistic and unstable structures.)
+- **[CDVAE](https://arxiv.org/abs/2110.06197)** **Open-source** Crystal Diffusion Variational Autoencoder for Periodic Material Generation 
 
 - **[Example workflow [CDVAE + ALIGNN]](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260)** Inverse Design of Next-Generation Superconductors Using Data-Driven Deep Generative Models
 
@@ -58,7 +60,7 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
 
 - **[GT4SD](https://www.nature.com/articles/s41524-023-01028-1)** Accelerating material design with the generative toolkit for scientific discovery (npj comp)
 
-- **[Constrained GAN](https://www.nature.com/articles/s41524-021-00526-4)** Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures (npj comp) (Critic: PGCGM is more recent)
+- **[Constrained GAN](https://www.nature.com/articles/s41524-021-00526-4)** Constrained crystals deep convolutional generative adversarial network for the inverse design of crystal structures (npj comp) (Comment: PGCGM is more recent)
 
 - **[CDVAE for 2D](https://www.nature.com/articles/s41524-022-00923-3)** Data-driven discovery of 2D materials by deep generative models (npj comp)
 
