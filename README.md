@@ -3,6 +3,7 @@
 ## Data
 
 - JARVIS dataset is what we start with.
+![jarvis-hist](figure/jarvis-hist.png)
 - SuperCon dataset is somehow hard to work with.
 
 ## Official References (from https://ai4science.io/2024physics.html)
