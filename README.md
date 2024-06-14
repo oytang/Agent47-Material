@@ -3,7 +3,7 @@
 ## Tasks
 
 - [x] Install PGCGM on cluster and get it up and running
-~~- [ ] Train PGCGM over JARVIS dataset~~
+- [ ] ~~Train PGCGM over JARVIS dataset~~
 - [ ] 
 
 ## Goal
