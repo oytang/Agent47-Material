@@ -4,8 +4,8 @@
 
 - [x] Install PGCGM on cluster and get it up and running
 - [ ] ~~Train PGCGM over JARVIS dataset~~
-- [ ] Install GFlowNet on cluster and get it up and running
-- [ ] Install GT4SD on cluster and get it up and running
+- [ ] ~~Install GFlowNet on cluster and get it up and running~~
+- [ ] ~~Install GT4SD on cluster and get it up and running~~
 
 ## Goal
 
@@ -34,6 +34,7 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
 - **GflowNet** as in Crystal-GFN https://github.com/alexhernandezgarcia/gflownet
     - Critic: it lacks necessary docs and annotation to replicate the work
 - **GT4SD** https://github.com/GT4SD/gt4sd-core **doc** https://gt4sd.github.io/gt4sd-core/#
+    - Critic: it does NOT have embedded model for generative crystal materials design
 
 ## [Official References](https://ai4science.io/2024physics.html)
 
