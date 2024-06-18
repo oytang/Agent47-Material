@@ -31,7 +31,8 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
     - Critic: it does NOT enable imposing domain-based constraints into the generation process, and can lead to physically unrealistic and unstable structures.
 - **ALIGNN** https://github.com/usnistgov/alignn
 - **GflowNet** as in Crystal-GFN https://github.com/alexhernandezgarcia/gflownet
-- **GT4SD** https://www.nature.com/articles/s41524-023-01028-1
+    - Critic: it lacks necessary docs and annotation to replicate the work
+- **GT4SD** https://gt4sd.github.io/gt4sd-core/#
 
 ## [Official References](https://ai4science.io/2024physics.html)
 
