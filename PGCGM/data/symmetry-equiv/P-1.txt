@@ -1,4 +1,0 @@
- _symmetry_equiv_pos_site_id
- _symmetry_equiv_pos_as_xyz
-  1  'x, y, z'
-  2  '-x, -y, -z'
