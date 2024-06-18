@@ -5,6 +5,7 @@
 - [x] Install PGCGM on cluster and get it up and running
 - [ ] ~~Train PGCGM over JARVIS dataset~~
 - [ ] Install GFlowNet on cluster and get it up and running
+- [ ] Install GT4SD on cluster and get it up and running
 
 ## Goal
 
