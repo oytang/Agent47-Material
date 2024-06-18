@@ -32,7 +32,7 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
 - **ALIGNN** https://github.com/usnistgov/alignn
 - **GflowNet** as in Crystal-GFN https://github.com/alexhernandezgarcia/gflownet
     - Critic: it lacks necessary docs and annotation to replicate the work
-- **GT4SD** https://gt4sd.github.io/gt4sd-core/#
+- **GT4SD** https://github.com/GT4SD/gt4sd-core **doc** https://gt4sd.github.io/gt4sd-core/#
 
 ## [Official References](https://ai4science.io/2024physics.html)
 
