@@ -6,6 +6,7 @@
 - [ ] ~~Train PGCGM over JARVIS dataset~~
 - [ ] ~~Install GFlowNet on cluster and get it up and running~~
 - [ ] ~~Install GT4SD on cluster and get it up and running~~
+- [ ] Install FlowMM on cluster and get it up and running
 
 ## Goal
 
@@ -26,6 +27,7 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
 
 ## Relevant code repositories
 
+- **FlowMM** https://github.com/facebookresearch/flowmm
 - **PGCGM** https://github.com/MilesZhao/PGCGM
     - Critic: it cannot do property-oriented inverse design. So the generated structures are more symmetric, but there is no way to insert T<sub>C</sub> information.
 - **CDVAE** https://github.com/txie-93/cdvae
