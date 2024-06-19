@@ -1,13 +1,5 @@
 # Agent47-Material
 
-## Tasks
-
-- [x] Install PGCGM on cluster and get it up and running
-- [ ] ~~Train PGCGM over JARVIS dataset~~
-- [ ] ~~Install GFlowNet on cluster and get it up and running~~
-- [ ] ~~Install GT4SD on cluster and get it up and running~~
-- [ ] Install FlowMM on cluster and get it up and running
-
 ## Goal
 
 As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260), we want to:
@@ -27,16 +19,25 @@ The general idea is to replicate a work close to [MatterGen](https://arxiv.org/a
 
 ## Relevant code repositories
 
+### Crystal Generation
+
+- **AIRS** https://github.com/divelab/AIRS
+    - Latest model "GMTNet" is not actually available
+    - **SyMat** can be used
 - **FlowMM** https://github.com/facebookresearch/flowmm
+    - Issue with installing environment
 - **PGCGM** https://github.com/MilesZhao/PGCGM
-    - Critic: it cannot do property-oriented inverse design. So the generated structures are more symmetric, but there is no way to insert T<sub>C</sub> information.
+    - Critic: it cannot do property-oriented inverse design. So the generated structures are more symmetric, but there is no way to insert T<sub>C</sub> information
 - **CDVAE** https://github.com/txie-93/cdvae
-    - Critic: it does NOT enable imposing domain-based constraints into the generation process, and can lead to physically unrealistic and unstable structures.
-- **ALIGNN** https://github.com/usnistgov/alignn
+    - Critic: it does NOT enable imposing domain-based constraints into the generation process, and can lead to physically unrealistic and unstable structures
 - **GflowNet** as in Crystal-GFN https://github.com/alexhernandezgarcia/gflownet
     - Critic: it lacks necessary docs and annotation to replicate the work
 - **GT4SD** https://github.com/GT4SD/gt4sd-core **doc** https://gt4sd.github.io/gt4sd-core/#
     - Critic: it does NOT have embedded model for generative crystal materials design
+
+### Crystal Property Prediction
+
+- **ALIGNN** https://github.com/usnistgov/alignn
 
 ## [Official References](https://ai4science.io/2024physics.html)
 
