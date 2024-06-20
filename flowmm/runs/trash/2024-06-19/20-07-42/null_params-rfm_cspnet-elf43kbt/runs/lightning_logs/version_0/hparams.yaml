@@ -1,0 +1,175 @@
+core:
+  version: 0.1.dev2+g1910cf9.d20240619
+  tags:
+  - '2024-06-19'
+logging:
+  val_check_interval: 5
+  wandb:
+    project: rfmcsp-conditional-jarvis_3d
+    entity: null
+    log_model: true
+    mode: offline
+    group: null_params-rfm_cspnet-elf43kbt
+  wandb_watch:
+    log: all
+    log_freq: 500
+  lr_monitor:
+    logging_interval: step
+    log_momentum: false
+optim:
+  optimizer:
+    _target_: torch.optim.AdamW
+    lr: 0.0003
+    weight_decay: 0.0
+  lr_scheduler:
+    _target_: torch.optim.lr_scheduler.CosineAnnealingLR
+    T_max: 1000
+    eta_min: 1.0e-05
+  interval: epoch
+  ema_decay: 0.999
+train:
+  deterministic: warn
+  random_seed: 42
+  pl_trainer:
+    fast_dev_run: false
+    devices: 1
+    accelerator: gpu
+    precision: 32
+    max_epochs: 1000
+    accumulate_grad_batches: 1
+    num_sanity_val_steps: 1
+    gradient_clip_val: 0.5
+    gradient_clip_algorithm: value
+    profiler: simple
+  monitor_metric: val/loss
+  monitor_metric_mode: min
+  model_checkpoints:
+    save_top_k: 1
+    verbose: false
+    save_last: false
+  every_n_epochs_checkpoint:
+    every_n_epochs: 100
+    save_top_k: -1
+    verbose: false
+    save_last: false
+val:
+  compute_nll: false
+test:
+  compute_nll: false
+  compute_loss: true
+integrate:
+  div_mode: rademacher
+  method: euler
+  num_steps: 1000
+  normalize_loglik: true
+  inference_anneal_slope: 0.0
+  inference_anneal_offset: 0.0
+data:
+  dataset_name: jarvis_3d
+  dim_coords: 3
+  root_path: /project/andrewferguson/yifengt/Agent47-Material/flowmm/data/jarvis_3d
+  prop: Tc
+  num_targets: 1
+  niggli: true
+  primitive: false
+  graph_method: crystalnn
+  lattice_scale_method: scale_length
+  preprocess_workers: 30
+  readout: mean
+  max_atoms: 52
+  otf_graph: false
+  eval_model_name: perov
+  tolerance: 0.1
+  use_space_group: false
+  use_pos_index: false
+  train_max_epochs: 1000
+  early_stopping_patience: 100000
+  teacher_forcing_max_epoch: 300
+  datamodule:
+    _target_: diffcsp.pl_data.datamodule.CrystDataModule
+    datasets:
+      train:
+        _target_: diffcsp.pl_data.dataset.CrystDataset
+        name: Formation energy train
+        path: /project/andrewferguson/yifengt/Agent47-Material/flowmm/data/jarvis_3d/train.csv
+        save_path: /project/andrewferguson/yifengt/Agent47-Material/flowmm/data/jarvis_3d/train_ori.pt
+        prop: Tc
+        niggli: true
+        primitive: false
+        graph_method: crystalnn
+        tolerance: 0.1
+        use_space_group: false
+        use_pos_index: false
+        lattice_scale_method: scale_length
+        preprocess_workers: 30
+      val:
+      - _target_: diffcsp.pl_data.dataset.CrystDataset
+        name: Formation energy val
+        path: /project/andrewferguson/yifengt/Agent47-Material/flowmm/data/jarvis_3d/val.csv
+        save_path: /project/andrewferguson/yifengt/Agent47-Material/flowmm/data/jarvis_3d/val_ori.pt
+        prop: Tc
+        niggli: true
+        primitive: false
+        graph_method: crystalnn
+        tolerance: 0.1
+        use_space_group: false
+        use_pos_index: false
+        lattice_scale_method: scale_length
+        preprocess_workers: 30
+      test:
+      - _target_: diffcsp.pl_data.dataset.CrystDataset
+        name: Formation energy test
+        path: /project/andrewferguson/yifengt/Agent47-Material/flowmm/data/jarvis_3d/test.csv
+        save_path: /project/andrewferguson/yifengt/Agent47-Material/flowmm/data/jarvis_3d/test_ori.pt
+        prop: Tc
+        niggli: true
+        primitive: false
+        graph_method: crystalnn
+        tolerance: 0.1
+        use_space_group: false
+        use_pos_index: false
+        lattice_scale_method: scale_length
+        preprocess_workers: 30
+    num_workers:
+      train: 8
+      val: 1
+      test: 1
+    batch_size:
+      train: 8
+      val: 106
+      test: 106
+model:
+  cost_coord: 400.0
+  cost_lattice: 1.0
+  cost_type: 0.0
+  affine_combine_costs: true
+  target_distribution: conditional
+  self_cond: false
+  manifold_getter:
+    atom_type_manifold: null_manifold
+    coord_manifold: flat_torus_01
+    lattice_manifold: lattice_params
+    length_inner_coef: 1.0
+vectorfield:
+  _target_: flowmm.model.arch.CSPNet
+  hidden_dim: 512
+  time_dim: 256
+  num_layers: 6
+  act_fn: silu
+  dis_emb: sin
+  num_freqs: 128
+  edge_style: fc
+  max_neighbors: 20
+  cutoff: 7.0
+  ln: true
+  use_log_map: true
+  dim_atomic_rep: 100
+  lattice_manifold: lattice_params
+  concat_sum_pool: true
+  represent_num_atoms: true
+  represent_angle_edge_to_lattice: true
+  self_edges: false
+  self_cond: false
+stats/params_total: 28454612
+stats/params_trainable: 14227306
+stats/params_not_trainable: 14227306

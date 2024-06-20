@@ -2,6 +2,7 @@
 
 gflownet/
 SyMat/
+*.ckpt
 
 
 # Customized

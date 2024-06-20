@@ -1,0 +1,31 @@
+/home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/torch_geometric/typing.py:47: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/torch_geometric/typing.py:101: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/libpyg.so)
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+/home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/next/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[rank: 0] Global seed set to 42
+/project/andrewferguson/yifengt/Agent47-Material/flowmm/src/flowmm/model/model_pl.py:69: PossibleUserWarning: since cfg.model.manifold_getter.atom_type_manifold='null_manifold', set cost_type=0.0 & cost_cross_ent=0.0
+  warnings.warn(
+/home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/lightning_lite/plugins/environments/slurm.py:167: PossibleUserWarning: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python scripts_model/run.py data=jarvis_3d model=null_param ...
+  rank_zero_warn(
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name            | Type           | Params
+---------------------------------------------------
+0 | manifold_getter | ManifoldGetter | 0     
+1 | model           | EMA            | 28.5 M
+---------------------------------------------------
+14.2 M    Trainable params
+14.2 M    Non-trainable params
+28.5 M    Total params
+113.818   Total estimated model params size (MB)
+/home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:224: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/yifengt/.conda/envs/flowmm/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:224: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
