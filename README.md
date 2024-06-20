@@ -9,6 +9,8 @@
 - [x] De novo generation of crystals with best trained model
 - [ ] Data analysis and visualization of generated crystals
 
+![training-curve](figure/training-curve.png)
+
 ## Goal
 
 As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260), we want to:
