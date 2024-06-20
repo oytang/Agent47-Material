@@ -9,6 +9,8 @@ dft/
 **/*.json.gz
 **/exp/
 *.png
+*.err
+*.out
 # runs/
 **/modified-initial-release-data/
 **/official_ckpts/
