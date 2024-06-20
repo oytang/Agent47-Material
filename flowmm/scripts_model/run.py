@@ -168,7 +168,7 @@ def run(cfg: DictConfig) -> None:
     trainer = pl.Trainer(
         # default_root_dir=hydra_dir,
         # logger=wandb_logger,
-        logger=CSVLogger("./runs/"),
+        logger=CSVLogger("."),
         callbacks=callbacks,
         deterministic=cfg.train.deterministic,
         check_val_every_n_epoch=cfg.logging.val_check_interval,
