@@ -3,6 +3,7 @@
 gflownet/
 SyMat/
 *.ckpt
+flowmm/lightning_logs/
 
 
 # Customized
