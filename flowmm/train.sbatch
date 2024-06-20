@@ -8,12 +8,12 @@
 #SBATCH --gres=gpu:1
 #SBATCH --nodes=1
 
-source ~/.bashrc
+# source ~/.bashrc
 module load cuda/11.8
-module load python
+# module load python
 # conda init
 # conda deactivate
-conda activate flowmm
+source activate flowmm
 
 which python
 
