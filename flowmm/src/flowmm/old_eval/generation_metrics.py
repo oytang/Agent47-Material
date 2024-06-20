@@ -18,7 +18,8 @@ from flowmm.old_eval.core import (
 COV_Cutoffs = {
     "mp20": {"struc": 0.4, "comp": 10.0},
     "carbon": {"struc": 0.2, "comp": 4.0},
-    "perovskite": {"struc": 0.2, "comp": 4},
+    # "perovskite": {"struc": 0.2, "comp": 4},
+    "perov": {"struc": 0.2, "comp": 4},
 }
 
 
@@ -132,7 +133,7 @@ def compute_generation_metrics(
     path: Path,
     metrics_path: Path,
     ground_truth_path: Path,
-    eval_model_name: Literal["carbon", "mp20", "perovskite"],
+    eval_model_name: Literal["carbon", "mp20", "perov"],#"perovskite"],
     n_subsamples: int,
 ) -> dict[str, float]:
     all_metrics = {}
