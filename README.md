@@ -1,5 +1,14 @@
 # Agent47-Material
 
+## Progress
+
+- [x] Setup FlowMM & get it up and running
+- [x] Data preprocessing (format conversion, split, etc.)
+- [x] Model conditional training with JARVIS 3D dataset targeting critical temperature T<sub>C</sub>
+- [x] Select best trained model with validation and early stopping
+- [x] De novo generation of crystals with best trained model
+- [ ] Data analysis and visualization of generated crystals
+
 ## Goal
 
 As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c01260), we want to:
