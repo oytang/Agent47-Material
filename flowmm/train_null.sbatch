@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --account=pi-andrewferguson
-#SBATCH --job-name=train_flowmm
-#SBATCH --output=train_flowmm.out
-#SBATCH --error=train_flowmm.err
+#SBATCH --job-name=train_null
+#SBATCH --output=train_null.out
+#SBATCH --error=train_null.err
 #SBATCH --time=24:00:00
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
