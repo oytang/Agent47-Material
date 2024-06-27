@@ -1,4 +1,4 @@
-prefix: /project/andrewferguson/yifengt/envs/flowmm
+prefix: /eagle/DeepOrb/Ray/micromamba/env/flowmm
 channels:
   - nvidia
   - pytorch

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_TiCo2Cu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.03796607
+_cell_length_b   3.06539937
+_cell_length_c   5.30785383
+_cell_angle_alpha   90.14338085
+_cell_angle_beta   89.93941666
+_cell_angle_gamma   89.99139093
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiCo2Cu
+_chemical_formula_sum   'Ti1 Co2 Cu1'
+_cell_volume   49.42962663
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.75758311  0.33775990  0.27574789  1
+  Co  Co1  1  0.25589373  0.83965385  0.03960226  1
+  Co  Co2  1  0.75626175  0.34220753  0.80871206  1
+  Cu  Cu3  1  0.25660458  0.84092850  0.56954180  1

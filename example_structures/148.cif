@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_BeCo3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40439949
+_cell_length_b   3.43128899
+_cell_length_c   3.41658869
+_cell_angle_alpha   90.00263039
+_cell_angle_beta   90.00440193
+_cell_angle_gamma   90.01054994
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BeCo3
+_chemical_formula_sum   'Be1 Co3'
+_cell_volume   39.91080644
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.88871242  0.12983944  0.07990633  1
+  Co  Co1  1  0.38675549  0.13138044  0.58043587  1
+  Co  Co2  1  0.38828426  0.63089782  0.08259788  1
+  Be  Be3  1  0.88595220  0.62946974  0.58151001  1

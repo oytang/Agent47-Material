@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Mn2BeCr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87456702
+_cell_length_b   3.87885416
+_cell_length_c   3.86715662
+_cell_angle_alpha   60.08155577
+_cell_angle_beta   60.42032926
+_cell_angle_gamma   59.60360161
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2BeCr
+_chemical_formula_sum   'Mn2 Be1 Cr1'
+_cell_volume   41.12490970
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.37242255  0.70214417  0.51864239  1
+  Be  Be1  1  0.12128111  0.45358844  0.26861031  1
+  Cr  Cr2  1  0.62247614  0.95462847  0.76967405  1
+  Mn  Mn3  1  0.87265142  0.20228493  0.02045807  1
