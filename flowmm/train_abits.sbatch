@@ -9,11 +9,9 @@
 #SBATCH --nodes=1
 #SBATCH --exclusive
 
-# source ~/.bashrc
+
 module load cuda/11.8
-# module load python
-# conda init
-# conda deactivate
+
 source activate flowmm
 
 which python
