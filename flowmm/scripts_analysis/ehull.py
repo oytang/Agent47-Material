@@ -85,8 +85,12 @@ def get_e_hull_from_phase_diagram(
 ) -> float:
     """returns e_hull_per_atom"""
     structure = to_structure(structure)
+    mod_structure_composition_elem = str(structure.composition).split(' ')
+    mod_structure_composition_elem = [elem[:-1] for elem in mod_structure_composition_elem]
+    mod_structure_composition = ' '.join(mod_structure_composition_elem)
+    print(mod_structure_composition)
     try:
-        return phase_diagram.get_hull_energy_per_atom(structure.composition)
+        return phase_diagram.get_hull_energy_per_atom(mod_structure_composition)
     except (ValueError, AttributeError, ZeroDivisionError):
         return float("nan")
 
