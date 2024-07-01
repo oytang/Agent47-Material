@@ -7,7 +7,7 @@ A generative crystal material model for superconducter materials based on [FlowM
 
 This is a structured solution for the **[Materials Science Challenge](https://ai4science.io/2024physics.html) of [ai4science hackathon](https://ai4science.io/home.html)**, organized by [Shanghai AI Industry Association (上海市人工智能行业协会)](http://en.sh-aia.com/), [DeepVerse (幻量科技)](https://deepverse.tech/en/index.html), [Lightelligence 曦智科技](https://www.lightelligence.ai/), [SECCO 赛科](https://www.secco.com.cn/en_us), [Baidu AI Cloud (百度智能云)](https://intl.cloud.baidu.com/), [Nest.Bio Labs (巢生实验室)](https://www.nest.bio/).
 
-[](figure/generated-structures.png)
+[![generated-structures](figure/generated-structures.png)](presentation.pdf)
 
 ## Results overview
 
