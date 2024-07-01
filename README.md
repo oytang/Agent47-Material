@@ -19,7 +19,7 @@ See [presentation.pdf](presentation.pdf) for a full slide deck illustrating the 
 - [x] FlowMM validation with conditional generation - model achieved a Match Rate of 47.00% and an RMSE of 0.21
 - [x] FlowMM de novo generation of crystals with the model lowest on validation loss - model generated 10K structures, achieved structural validity of 88.21%, composition validity of 68.43%
 - [x] Structural pre-relaxation of generated crystals using [CHGNet](https://chgnet.lbl.gov/)
-- [x] Lattice structure visulization, space group association of generated crystals
+- [x] Lattice structure visulization, space group association of generated crystals; CIF file of selected generated crystals are inclosed in directory [example_structrues](example_structures/)
 - [x] Energy above hull calculated for selected generated crystals
 
 ![training-curve](figure/training-curve.png)
