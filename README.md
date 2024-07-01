@@ -1,13 +1,26 @@
+[![](https://img.shields.io/badge/ai4science-Materials-blue)](https://ai4science.io/2024physics.html)
+[![](https://img.shields.io/badge/slide%20deck-8A2BE2)](presentation.pdf)
+
 # Agent47-Material
 
-## Progress
+A generative crystal material model for superconducter materials based on [FlowMM](https://github.com/facebookresearch/flowmm) by Facebook Research and [JARVIS Supercon Databse](https://figshare.com/articles/dataset/JARVIS-SuperconDB/21370572) by NIST.
 
-- [x] Setup FlowMM & get it up and running
-- [x] Data preprocessing (format conversion, split, etc.)
-- [x] Model conditional training with JARVIS 3D dataset targeting critical temperature T<sub>C</sub>
-- [x] Select best trained model with validation and early stopping
-- [x] De novo generation of crystals with best trained model
-- [ ] Data analysis and visualization of generated crystals
+This is a structured solution for the **[Materials Science Challenge](https://ai4science.io/2024physics.html) of [ai4science hackathon](https://ai4science.io/home.html)**, organized by [Shanghai AI Industry Association (上海市人工智能行业协会)](http://en.sh-aia.com/), [DeepVerse (幻量科技)](https://deepverse.tech/en/index.html), [Lightelligence 曦智科技](https://www.lightelligence.ai/), [SECCO 赛科](https://www.secco.com.cn/en_us), [Baidu AI Cloud (百度智能云)](https://intl.cloud.baidu.com/), [Nest.Bio Labs (巢生实验室)](https://www.nest.bio/).
+
+[](figure/generated-structures.png)
+
+## Results overview
+
+See [presentation.pdf](presentation.pdf) for a full slide deck illustrating the background, relevant work, methodology, model training and validation, and unconditional generation results.
+
+- [x] Data preprocessing (format conversion, split, etc.) for JARVIS 3D SuperCon Database
+- [x] Deploy FlowMM with preprocessed data
+- [x] FlowMM training with early-stopping monitoring validation loss
+- [x] FlowMM validation with conditional generation - model achieved a Match Rate of 47.00% and an RMSE of 0.21
+- [x] FlowMM de novo generation of crystals with the model lowest on validation loss - model generated 10K structures, achieved structural validity of 88.21%, composition validity of 68.43%
+- [x] Structural pre-relaxation of generated crystals using [CHGNet](https://chgnet.lbl.gov/)
+- [x] Lattice structure visulization, space group association of generated crystals
+- [x] Energy above hull calculated for selected generated crystals
 
 ![training-curve](figure/training-curve.png)
 
@@ -22,11 +35,9 @@ As compared to an [example work](https://pubs.acs.org/doi/10.1021/acs.jpclett.3c
 
 The general idea is to replicate a work close to [MatterGen](https://arxiv.org/abs/2312.03687) (which is not open-sourced) and apply to superconductor discovery.
 
-## Data
+## Data - [JARVIS Supercon Databse](https://figshare.com/articles/dataset/JARVIS-SuperconDB/21370572)
 
-- JARVIS dataset is what we start with.
 ![jarvis-hist](figure/jarvis-hist.png)
-- SuperCon dataset is somehow hard to work with.
 
 ## Relevant code repositories
 
